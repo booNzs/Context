@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Context Settings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="side-by-side-header">
+        <img alt="Context Logo" src="images/Icon48.png">
+        <h1 class="header">Context</h1>
+    </div>
+    <div class="switches">
+        <label class="switch" data-setting="use-browser-ai">
+            <input type="checkbox" id="use-browser-ai" checked>
+            <span class="slider round"></span>
+        </label>
+        <h4>Use Your Browser's Built-in AI</h4>
+    </div>
+    <div class="form">
+        <label for="ai-api-key">
+            <input required="" placeholder="AI API Key" type="text" class="input" id="ai-api-key">
+            <span class="input-border"></span>
+        </label>
+    </div>
+    <div class="switches">
+        <label class="switch" data-setting="give-context-auto">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+        </label>
+        <h4>Automatically Give Context</h4>
+    </div>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+</body>
+</html>
