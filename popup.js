@@ -8,9 +8,11 @@ function updateInputState() {
         apiKeyInput.disabled = true;
         apiKeyInput.required = false;
         apiKeyInput.value = "";
+        apiKeyInput.placeholder = "Not Needed";
     } else {
         apiKeyInput.disabled = false;
         apiKeyInput.required = true;
+        apiKeyInput.placeholder = "AI API Key";
     }
 }
 
